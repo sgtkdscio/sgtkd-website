@@ -69,3 +69,52 @@ footer{padding:50px 5vw 25px;border-top:1px solid var(--line);background:#07090c
 .g5 {
   background-image: url("achievement.png");
 }
+/* Footer links */
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.footer-links a:not(.facebook-link) {
+  position: relative;
+}
+
+/* Facebook button */
+.facebook-link {
+  width: 48px;
+  height: 48px;
+  margin-left: 8px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(135deg, #1877f2, #0d47a1);
+  border-radius: 50%;
+
+  box-shadow:
+    0 0 18px rgba(24, 119, 242, 0.35),
+    inset 0 1px 2px rgba(255,255,255,0.25);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    filter 0.25s ease;
+}
+
+.facebook-link svg {
+  width: 28px;
+  height: 28px;
+  fill: white;
+}
+
+.facebook-link:hover {
+  transform: translateY(-4px) scale(1.08);
+
+  box-shadow:
+    0 0 28px rgba(24, 119, 242, 0.7),
+    0 8px 20px rgba(0,0,0,0.4);
+
+  filter: brightness(1.15);
+}
