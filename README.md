@@ -16,3 +16,7 @@ Replace:
 
 ## Deploy
 Push these files to the GitHub repository, then connect the repository to Cloudflare Pages.
+
+
+## Version 3 update
+Added a Meet Our Trustees section with trustee names and SCIO positions, plus navigation link.
